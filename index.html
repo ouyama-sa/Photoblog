@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photoblog</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="container">
+      <nav>
+        <img id="logo" src="./assets/camera.svg" alt="logo">
+
+        <ul>
+          <li>Home</li>
+          <li class="active">Gallery</li>
+        </ul>
+      </nav>
+
+      <form>
+        <div class="input-wrapper">
+          <label for="search">
+            Search for pictures and collections
+          </label>
+          <input 
+            type="text"   
+            id="search"
+            placeholder="Search for pictures and collections">
+        </div>
+      </form>
+      <img 
+        src="https://randomuser.me/api/portraits/lego/5.jpg" 
+        alt="Picture of the user, Herr Friedrich Zweihänder Legomann"
+        class="avatar">
+    </header>
+    <main>
+      <div class="container">
+        <h1>Gallery</h1>
+      
+        <section class="gallery">
+          <figure class="item">
+            <img src="https://source.unsplash.com/random/?workspace-setup" alt="">
+
+            <figcaption class="details">
+              <h2>Workspace setup</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="https://source.unsplash.com/random/?dark-red,setup" alt="">
+
+            <figcaption class="details">
+              <h2>Dark and red</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="https://source.unsplash.com/random/?organized-tidy-grid" alt="">
+
+            <figcaption class="details">
+              <h2>Grids and organization</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="https://source.unsplash.com/random/?hexagon" alt="">
+
+            <figcaption class="details">
+              <h2>Honeycomb</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="https://source.unsplash.com/random/?writing-writer" alt="">
+
+            <figcaption class="details">
+              <h2>Writing setup</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="https://source.unsplash.com/random/?ergonomic" alt="">
+
+            <figcaption class="details">
+              <h2>Ergonomics</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="https://source.unsplash.com/random/?lights" alt="">
+
+            <figcaption class="details">
+              <h2>Light show</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="https://source.unsplash.com/random/?deep-purple" alt="">
+
+            <figcaption class="details">
+              <h2>Deep purple</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item">
+            <img src="https://source.unsplash.com/random/?monitors,multi-monitor" alt="">
+
+            <figcaption class="details">
+              <h2>Multi-screen</h2>
+              <div class="tags">
+                <span>tag</span>
+              </div>
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+    </main>
+    <footer class="container">
+      <p>
+        © 2023 - Rocketseat Explorer
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
